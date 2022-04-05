@@ -31,9 +31,5 @@ let package = Package(
             url: "https://s3.amazonaws.com/salesforcesos.com/ios/servicesdk/SwiftPackageManager/ServiceChat.xcframework.zip",
             checksum: "8641ad3c08624dcf05dc40c4c10f7fa9af44d9aa9873e60240539b8c549e0108"
         ),
-        .testTarget(
-            name: "ServiceSDKPackageTests",
-            dependencies: ["ServiceSDKPackage"]
-        )
     ]
 )
